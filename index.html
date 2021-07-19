@@ -8,7 +8,7 @@
 <body>
     <script>
       let params = new URLSearchParams(window.location.search);
-      window.parent.location.replace(params.get("toRedirect"));
+      window.location.replace(params.get("toRedirect"));
     </script>
 </body>
 </html>
